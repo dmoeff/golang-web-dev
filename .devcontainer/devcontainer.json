@@ -1,0 +1,15 @@
+  
+{
+    "extensions": [
+      "golang.go",
+      "ms-azuretools.vscode-docker",
+      "ms-kubernetes-tools.vscode-kubernetes-tools",
+      "github.vscode-pull-request-github",
+      "ms-vsonline.vsonline",
+      "ms-vsliveshare.vsliveshare",
+      "ms-vsliveshare.vsliveshare-pack",
+      "ms-vscode.azure-account"
+    ],
+  
+    "postCreateCommand": "/bin/bash ./.devcontainer/goinstall.sh --version 1.15"
+}
